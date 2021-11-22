@@ -11,10 +11,11 @@ public class Circle extends Shape{
         super(color, isFilled);
         this.radius = radius;
     }
-
+@Override
     public double getArea(){
         return this.radius*this.radius*3.1415;
     }
+    @Override
     public double getPrerimeter(){
         return this.radius*2*3.1415;
     }

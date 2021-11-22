@@ -1,6 +1,6 @@
 package com.company.Task3;
 
-public class Shape {
+abstract class Shape {
     private String color;
     private boolean isFilled;
 
@@ -35,4 +35,6 @@ public class Shape {
     public String toString() {
         return "Shape with color of " + color +" and " + (isFilled ?"filled":"not filled");
     }
+    abstract double getArea();
+    abstract double getPrerimeter();
 }

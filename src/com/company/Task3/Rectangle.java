@@ -23,10 +23,11 @@ public class Rectangle extends Shape{
     public double getLength() {
         return length;
     }
-
+    @Override
     public double getArea(){
         return this.width*this.length;
     }
+    @Override
     public double getPrerimeter(){
         return this.width*2+this.length*2;
     }

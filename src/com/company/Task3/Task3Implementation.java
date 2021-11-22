@@ -2,8 +2,6 @@ package com.company.Task3;
 
 public class Task3Implementation {
     public static void main(String[] args) {
-        Shape myShape = new Shape();
-        System.out.println(myShape);
 
         Circle myCircle = new Circle("blue",true,13);
         System.out.println(myCircle);
