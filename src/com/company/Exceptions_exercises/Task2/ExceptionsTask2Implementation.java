@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ExceptionsTask2Implementation {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoBookFoundException {
         Book book1 = new Book("155","Lord","Someone",1850);
         Book book2 = new Book("160","Lord","Someone",1900);
         Book book3 = new Book("abc","Lord","Someone",2000);

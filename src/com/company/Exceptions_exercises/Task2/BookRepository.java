@@ -19,13 +19,13 @@ public class BookRepository {
     public void removeAllBooks(){
         booksList.removeAll(booksList);
     }
-    public void removeTheBookById(String id) throws FindException {
+    public void removeTheBookById(String id) throws NoBookFoundException {
 
         for (Book a:this.booksList){
             if(a.getId().equals(id)){
                 this.booksList.remove(a);
             }else{
-                throw new FindException("Unfortunately the book with id " + id+ " could not be found");
+                throw new NoBookFoundException("Unfortunately the book with id " + id+ " could not be found");
             }
         }
 
