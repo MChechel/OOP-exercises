@@ -1,2 +1,6 @@
-package com.company.Exceptions_exercises.Task2;public class NoBookFoundException {
+package com.company.Exceptions_exercises.Task2;
+
+public class NoBookFoundException extends Exception {
+
+
 }
